@@ -7,10 +7,10 @@ public class Main {
 	public static void main(String[] args) {
 		KPSPublicSoap client = new KPSPublic().getKPSPublicSoap();
 
-		Long tckn = 12436019938l;
-		String firstName = "mehmet";
-		String lastName = "gürevin";
-		int birthYear = 1987;
+		Long tckn = 10999275068;
+		String firstName = "name";
+		String lastName = "surname";
+		int birthYear = 1985;
 
 		if (client.tcKimlikNoDogrula(tckn, firstName, lastName, birthYear)) {
 			System.out.printf("%d(%s %s, %d) identity verified.\n", tckn, firstName, lastName, birthYear);
