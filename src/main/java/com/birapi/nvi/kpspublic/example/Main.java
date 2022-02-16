@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		KPSPublicSoap client = new KPSPublic().getKPSPublicSoap();
 
-		Long tckn = 10999275068;
+		Long tckn = 10999275068l;
 		String firstName = "name";
 		String lastName = "surname";
 		int birthYear = 1985;
